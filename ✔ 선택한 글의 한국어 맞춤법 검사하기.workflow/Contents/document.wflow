@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>444.39</string>
+	<string>444.42</string>
 	<key>AMApplicationVersion</key>
 	<string>2.9</string>
 	<key>AMDocumentVersion</key>
@@ -55,7 +55,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>Run Shell Script</string>
+				<string>셸 스크립트 실행</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
@@ -87,10 +87,10 @@
 				<string>C9A8EFEF-E154-4844-8B90-B7469038AD3C</string>
 				<key>Keywords</key>
 				<array>
-					<string>Shell</string>
-					<string>Script</string>
-					<string>Command</string>
-					<string>Run</string>
+					<string>셸</string>
+					<string>스크립트</string>
+					<string>명령</string>
+					<string>실행</string>
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
@@ -172,7 +172,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>513.500000:671.000000</string>
+				<string>404.000000:305.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -216,11 +216,11 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run AppleScript.action</string>
 				<key>ActionName</key>
-				<string>Run AppleScript</string>
+				<string>AppleScript 실행</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>activatereturn "~/.korean-spelling-checker-result.html"</string>
+					<string>activatereturn "~/.cache/korean-spelling-checker-result.html"</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -240,7 +240,7 @@
 				<string>996AE406-1144-401A-9C18-8297D3A35D5C</string>
 				<key>Keywords</key>
 				<array>
-					<string>Run</string>
+					<string>실행</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>8E7DE8AC-A3B7-480F-B16C-F9E74EBA77C2</string>
@@ -274,7 +274,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>513.500000:916.000000</string>
+				<string>404.000000:550.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -328,7 +328,7 @@ end run</string>
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Website Popup.action</string>
 				<key>ActionName</key>
-				<string>Website Popup</string>
+				<string>웹 사이트 팝업</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>outputTypeTag</key>
@@ -456,7 +456,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>513.500000:1062.000000</string>
+				<string>404.000000:696.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Website Popup.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -481,7 +481,7 @@ end run</string>
 				<string>1.2.1</string>
 				<key>AMApplication</key>
 				<array>
-					<string>System</string>
+					<string>시스템</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict/>
@@ -499,7 +499,7 @@ end run</string>
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Copy to Clipboard.action</string>
 				<key>ActionName</key>
-				<string>Copy to Clipboard</string>
+				<string>클립보드로 복사</string>
 				<key>ActionParameters</key>
 				<dict/>
 				<key>BundleIdentifier</key>
@@ -520,7 +520,7 @@ end run</string>
 				<string>8F238FF8-3AC7-4BB3-81E9-3C8B36772195</string>
 				<key>Keywords</key>
 				<array>
-					<string>Copy</string>
+					<string>복사하기</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>D2ABE814-1E44-48FA-9CC9-076AB9795BD7</string>
@@ -579,11 +579,11 @@ end run</string>
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>Run Shell Script</string>
+				<string>셸 스크립트 실행</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>rm -f .korean-spelling-checker-result.html &amp;&amp; rm -f .korean-spelling-checker-result.html-e</string>
+					<string>rm -f .cache/korean-spelling-checker-result.html &amp;&amp; rm -f .cache/korean-spelling-checker-result.html-e</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -613,10 +613,10 @@ end run</string>
 				<string>F630C69A-5B52-4D2D-B1FD-A7D4E0068BE4</string>
 				<key>Keywords</key>
 				<array>
-					<string>Shell</string>
-					<string>Script</string>
-					<string>Command</string>
-					<string>Run</string>
+					<string>셸</string>
+					<string>스크립트</string>
+					<string>명령</string>
+					<string>실행</string>
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
@@ -698,7 +698,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>513.500000:1309.000000</string>
+				<string>404.000000:943.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -708,33 +708,33 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>27EA45F4-A039-4543-A85F-95725D1E1AE3</key>
+		<key>04DE3F3C-8CC1-4FB0-89F0-12B5D319CB21</key>
 		<dict>
 			<key>from</key>
-			<string>157E60AD-BDC2-47BA-AC49-DBB1238843FE - 157E60AD-BDC2-47BA-AC49-DBB1238843FE</string>
+			<string>A383693E-041B-4167-87B6-880984093A75 - A383693E-041B-4167-87B6-880984093A75</string>
 			<key>to</key>
-			<string>1B0DE756-2B2A-4CAB-904A-4DD0698C5BDD - 1B0DE756-2B2A-4CAB-904A-4DD0698C5BDD</string>
+			<string>157E60AD-BDC2-47BA-AC49-DBB1238843FE - 157E60AD-BDC2-47BA-AC49-DBB1238843FE</string>
 		</dict>
-		<key>3A88B8D5-2EA8-4AD0-8B08-D920123ABC07</key>
+		<key>A5D72223-EE8D-4B0B-B8A4-C9977892664A</key>
+		<dict>
+			<key>from</key>
+			<string>FA70C623-5521-4F12-BDC2-EAA8754F12F2 - FA70C623-5521-4F12-BDC2-EAA8754F12F2</string>
+			<key>to</key>
+			<string>A383693E-041B-4167-87B6-880984093A75 - A383693E-041B-4167-87B6-880984093A75</string>
+		</dict>
+		<key>DB915203-1269-43D5-B477-847597712262</key>
 		<dict>
 			<key>from</key>
 			<string>C657C251-C7D7-42DE-9B3C-9A6F476546D5 - C657C251-C7D7-42DE-9B3C-9A6F476546D5</string>
 			<key>to</key>
 			<string>FA70C623-5521-4F12-BDC2-EAA8754F12F2 - FA70C623-5521-4F12-BDC2-EAA8754F12F2</string>
 		</dict>
-		<key>84760B9D-F4FD-4044-8B4F-FD86945A974C</key>
+		<key>E33E6F1B-37F5-48CE-8DC1-F3C1D231B071</key>
 		<dict>
 			<key>from</key>
-			<string>FA70C623-5521-4F12-BDC2-EAA8754F12F2 - FA70C623-5521-4F12-BDC2-EAA8754F12F2</string>
-			<key>to</key>
-			<string>A383693E-041B-4167-87B6-880984093A75 - A383693E-041B-4167-87B6-880984093A75</string>
-		</dict>
-		<key>E58EEAB3-6A14-4C35-A49B-742AB9C13120</key>
-		<dict>
-			<key>from</key>
-			<string>A383693E-041B-4167-87B6-880984093A75 - A383693E-041B-4167-87B6-880984093A75</string>
-			<key>to</key>
 			<string>157E60AD-BDC2-47BA-AC49-DBB1238843FE - 157E60AD-BDC2-47BA-AC49-DBB1238843FE</string>
+			<key>to</key>
+			<string>1B0DE756-2B2A-4CAB-904A-4DD0698C5BDD - 1B0DE756-2B2A-4CAB-904A-4DD0698C5BDD</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
