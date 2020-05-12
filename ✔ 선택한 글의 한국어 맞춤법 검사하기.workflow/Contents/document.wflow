@@ -220,7 +220,8 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>activatereturn "~/.cache/korean-spelling-checker-result.html"</string>
+					<string>activate
+return "~/.cache/korean-spelling-checker-result.html"</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -583,7 +584,7 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>rm -f .cache/korean-spelling-checker-result.html &amp;&amp; rm -f .cache/korean-spelling-checker-result.html-e</string>
+					<string>rm -f ~/.cache/korean-spelling-checker-result.html &amp;&amp; rm -f ~/.cache/korean-spelling-checker-result.html-e</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
